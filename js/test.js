@@ -1,5 +1,5 @@
-function sayHello() {
-  console.log('hello');
+export default function sayHello() {
+  console.log('Houston, it appears that we are working :D');
 }
 
-sayHello();
+console.log('test');
