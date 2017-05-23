@@ -1,2 +1,10 @@
+# Directories
 node_modules/
 .idea/
+dist/
+
+# Configuration files
+\.eslintrc\.js
+
+# System Files
+.DS_Store
