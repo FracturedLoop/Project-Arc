@@ -43,7 +43,25 @@ module.exports = {
             options: {
               name: '[name].[ext]',
               outputPath: 'img/',
-              publicPath: 'img/'
+              publicPath: ''
+            }
+          },
+          {
+            loader: 'image-webpack-loader',
+            query: {
+              mozjpeg: {
+              progressive: true,
+            },
+            gifsicle: {
+              interlaced: false,
+            },
+            optipng: {
+              optimizationLevel: 4,
+            },
+            pngquant: {
+              quality: '75-90',
+              speed: 3,
+            },
             }
           }
         ]

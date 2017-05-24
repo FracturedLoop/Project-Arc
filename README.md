@@ -1,5 +1,4 @@
 # Project Arc
----
 
 ## Setup
 Firstly, make sure that you have npm installed (`npm --version`). Then, run `npm install` to install all the development dependancies.
