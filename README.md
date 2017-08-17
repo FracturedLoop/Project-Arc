@@ -1,5 +1,4 @@
 # Project Arc
-[![Stories in Ready](https://badge.waffle.io/Team4050/Project-Arc.svg?label=ready&title=Ready)](http://waffle.io/Team4050/Project-Arc)
 
 ## Setup
 Firstly, make sure that you have npm installed (`npm --version`). Then, run `npm install` to install all the development dependancies.
@@ -9,6 +8,3 @@ After completing the setup steps, run `npm run dev` to start the development ser
 
 #### Building for Distribution
 Running `npm run build` will do all the packaging and minify the HTML, CSS, and JS. The CSS and JS will also be combined. Afterwards, they will be written to the ./dist directory. Imports will automatically be added to the HTML.
-
-
-TEST
