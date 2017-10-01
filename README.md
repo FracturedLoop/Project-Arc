@@ -1,5 +1,4 @@
 # Project Arc
-[![Stories in Ready](https://badge.waffle.io/Team4050/Project-Arc.svg?label=ready&title=Ready)](http://waffle.io/Team4050/Project-Arc)
 
 ## The End Game
 ![Mockup](./mockup.png)
