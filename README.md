@@ -1,5 +1,8 @@
 # Project Arc
 
+#### TeamCity Development Build Status
+[![TeamCity Development Build Status](https://teamcity.carsonseese.com/app/rest/builds/buildType(id:ProjectArc_BuildDevelopment)/statusIcon)](https://teamcity.carsonseese.com/viewType.html?buildTypeId=ProjectArc_BuildDevelopment&guest=1)
+
 ## The End Game
 ![Mockup](./mockup.png)
 
