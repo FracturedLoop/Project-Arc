@@ -7,15 +7,22 @@ let webpack = require('webpack');
 module.exports = {
   context: __dirname,
   devtool: "inline-sourcemap",
-  entry: "./js/test2.js",
+  entry: "./js/app.js",
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
+    library: 'site',
+  },
+  resolve: {
+    alias: {
+      vue: 'vue/dist/vue.js'
+    }
   },
   module: {
     rules: [
         {
           test: /\.js$/,
+          exclude: /node_modules/,
           use: [
             {
               loader: 'babel-loader',
