@@ -19,3 +19,6 @@ site.app.pageContent = "Goodbye World!";
 
 #### Building for Distribution
 Running `npm run build` will do all the packaging and minify the HTML, CSS, and JS. The CSS and JS will also be combined. Afterwards, they will be written to the ./dist directory. Imports will automatically be added to the HTML.
+
+
+Test
